@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1;
+  /* font-family: "DM Serif Display", serif;  THIS IS FOR THE HEADINGS */
+  font-family: "Karla", sans-serif;
+  overflow: hidden;
+}
+
+/* 1440 max width */
+
+.navigation {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 3rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.header .links {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #837d87;
+  font-weight: 700;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover,
+.link:active {
+  color: #2e2e30;
+}
+
+.btn-primary:link,
+.btn-primary:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 700;
+  display: block;
+  border: 2px solid #000;
+  padding: 1.5rem 3rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 1.5rem 3rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn-secondary:hover,
+.btn-secondary:active {
+  color: #000;
+  background-color: #fff;
+}
+
+.section-hero .text-description {
+  color: #fff;
+  line-height: 1.6;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.heading-primary {
+  font-size: 8.5rem;
+  color: #fff;
+}
+
+.heading-secondary {
+  font-size: 8rem;
+  color: #2d2a31;
+}
+
+.heading-tertiary {
+  font-size: 2.8rem;
+  color: #2d2a31;
+}
+
+.subheading {
+  color: #837d87;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.margin-btm-md {
+  margin-bottom: 5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-mbl {
+  display: none;
+}
+
+.menu {
+  width: 2.6rem;
+  height: 2.6rem;
+  display: none;
+}
